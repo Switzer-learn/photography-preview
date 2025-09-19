@@ -10,16 +10,16 @@ const Hero = () => {
 
     const slides = [
         {
-            image: "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-            alt: "Bali wedding ceremony at Uluwatu temple with ocean backdrop"
+            image: "/images/Wedding_Bali_Beach.png",
+            alt: "Bali wedding ceremony at the beach with sunset backdrop"
         },
         {
-            image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
-            alt: "Bandung highland prewedding in misty pine forest"
+            image: "/images/Prewedding_International_Urban.png",
+            alt: "International prewedding in urban setting"
         },
         {
-            image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2087&q=80",
-            alt: "Paris destination wedding by the Seine river"
+            image: "/images/Wedding_International_Urban.png",
+            alt: "International city wedding with urban skyline"
         }
     ];
 
