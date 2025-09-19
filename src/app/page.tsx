@@ -1,5 +1,5 @@
 "use client";
-import { Header,Hero, TrustStrip, FeaturedStories, AboutPreview, ServicesSnapshot, HowItWorksPreview, TestimonialsPreview, FinalCTA, Footer } from "../components";
+import {Hero, FeaturedStories, AboutPreview, ServicesSnapshot, HowItWorksPreview, TestimonialsPreview, FinalCTA } from "../components";
 
 export default function Home() {
   return (

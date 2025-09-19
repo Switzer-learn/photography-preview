@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 
@@ -34,7 +34,6 @@ const testimonials = [
 
 export default function TestimonialsPage() {
   const [current, setCurrent] = useState(0);
-  const cardsToShow = typeof window !== 'undefined' && window.innerWidth >= 1024 ? 3 : (typeof window !== 'undefined' && window.innerWidth >= 640 ? 2 : 1);
 
   // Responsive: 1 card on mobile, 2 on sm/md, 3 on lg+
   // But for SSR, fallback to 1
